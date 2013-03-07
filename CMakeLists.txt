@@ -7,5 +7,5 @@ message("using ${OPENCL_INCLUDE_DIR}")
 include_directories(${OPENCL_INCLUDE_DIR})
 set(OPENCL_INCLUDE_DIRS ${OPENCL_INCLUDE_DIR} PARENT_SCOPE)
 
-add_library (OCL-Utilities openCLUtilities.cpp openCLGLUtilities.cpp )
+add_library (OCL-Utilities openCLUtilities.cc openCLGLUtilities.cc )
 target_link_libraries(OCL-Utilities ${OPENCL_LIBRARIES})
