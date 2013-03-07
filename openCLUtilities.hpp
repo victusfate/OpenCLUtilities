@@ -7,7 +7,7 @@
 
 #if defined(__APPLE__) || defined(__MACOSX)
     // include <OpenCL/cl.hpp>
-	#include "opencl11/CL/cl.hpp"
+	#include "CL/cl.hpp"
 #else
     #include <CL/cl.hpp>
 #endif
